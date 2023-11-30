@@ -1,0 +1,11 @@
+{% extends 'index.html' %}
+
+{% block div %}
+    <form id="urlForm">
+        <label for="originalUrl">Enter your URL:</label>
+        <input type="url" id="originalUrl" name="originalUrl" required>
+        <label for="customurl">enter an custom url section:</label>
+        <input type="url" id="customurl" >
+        <button type="button" onclick="">Shorten</button>
+    </form>
+{% endblock div %}
